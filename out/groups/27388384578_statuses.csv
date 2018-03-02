@@ -1,0 +1,479 @@
+status_id,status_message,status_author,link_name,status_type,status_link,status_published,num_reactions,num_comments,num_shares,num_likes,num_loves,num_wows,num_hahas,num_sads,num_angrys,num_special
+27388384578_10156208127419579,"hey. I'm new to python and need some help? i'm trying to make a input within to lines of text. like this
+
+print ("" ║  user = input (""name: "")             ║ "")
+
+i know that i can't put a input inside of a print? but how can i do this?
+
+the output should be something like this:
+║ name:                        ║
+║ eMail:                        ║
+║ Password:                 ║
+
+- storm",,status,,2018-03-01 18:02:06,4,25,0,Storm Søndergaard Christensen,4,0,0,0,0,0,0
+27388384578_10156208285389579,"Hi everyone,
+we are looking for a backend developer in Rome.
+The candidate shoul be able to use:
+
+1) Framework Django
+2) Django Rest Framework
+3) Django celery
+4) Redis
+5) Enviroment Server Linux 
+6) Enviroment cloud amazon AWS (EC2, RDS, Cloudfront, ELB, etc..)
+7) Database PostGIS",,status,,2018-03-01 20:05:40,6,6,1,Luca del Vescovo,6,0,0,0,0,0,0
+27388384578_10156209793739579,"Join Matei Zaharia, Spark Creator and Stanford Professor, as he discusses the Stanford DAWN project
+Infrastructure for Usable Machine Learning with Spark Creator and Stanford Professor Matei Zaharia.
+ 
+Abstract: Despite incredible recent advances in machine learning, building machine learning applications remains prohibitively time-consuming and expensive for all but the best-trained, best-funded engineering teams. This expense usually comes not from a need for new and improved statistical models but instead from a lack of systems and tools for supporting end-to-end machine learning application development, from data preparation and labeling to productionisation and monitoring. In the Stanford DAWN project, we are developing a set of tools to make these processes easier, from weak supervision approaches to dramatically reduce the need for labeled data, to query-specific model specialization to reduce serving cost, and end-to-end ML systems that encapsulate a complete task and greatly simplify the interface to the user.
+","Data Science in 30 Minutes: Infrastructure for Usable Machine Learning with Spark Creator and Stanford Professor, Matei Zaharia",link,https://blog.thedataincubator.com/2017/12/ds30-databricks-matei-zaharia/,2018-03-02 06:38:41,0,0,0,Tanvira Ahmed,0,0,0,0,0,0,0
+27388384578_10156209773464579,"Hello everybody! We're doing a FREE Data Analysis workshop TONIGHT! Sign up using this link: https://www.eventbrite.com/e/hands-on-workshop-intro-to-pandas-for-data-analysis-tickets-43609949533
+
+We'll be talking about Python, Pandas and Matplotlib. Hope to see you all there and have some fun!
+
+See you all tonight!  #pydata 💪🐍",,photo,https://www.facebook.com/photo.php?fbid=10155281879701099&set=gm.10156209773464579&type=3,2018-03-02 06:31:32,2,0,0,Santiago Basulto,2,0,0,0,0,0,0
+27388384578_10156208062514579,"hi I´m trying to become a request from : 
+ 
+holen = urequests.get(""https://username:Password@16621.meine-homematic.de:12382/a.exe?ret=dom.GetObject(%22"" + HMvariable[1] + ""%22).Value()"")
+ 
+i become this error:
+ 
+ 
+Traceback (most recent call last):                                                                                                                    
+  File ""<stdin>"", line 1, in <module>                                                                                                                 
+  File ""urequests.py"", line 112, in get                                                                                                               
+  File ""urequests.py"", line 51, in request                                                                                                            
+ValueError: invalid syntax for integer with base 10   
+ 
+cane somebody help me please?",,status,,2018-03-01 17:06:57,0,6,0,Robby Ertmann,0,0,0,0,0,0,0
+27388384578_10156209450624579,"How do I handle a 
+requests.exceptions.ConnectionError ?
+usually wi-fi/stick problem... 
+
+My idea: 
+time.sleep(60)
+print('fix connection')",,status,,2018-03-02 04:42:58,0,1,0,Θοδωρής Βήτα,0,0,0,0,0,0,0
+27388384578_10156209495909579,"¿Vives en México y cuentas con poca experiencia? Envíanos tu CV a contacto@devhive.mx, consulta toda la información en  https://goo.gl/JaSYFf",devhive,photo,https://www.facebook.com/devhive/photos/a.1434837320061303.1073741828.1407573966120972/2013280478883648/?type=3,2018-03-02 05:04:03,0,0,0,Dan Osbourne,0,0,0,0,0,0,0
+27388384578_10156209481659579,"Statistics Viewer, a new plugin for open source gvSIG 2.4 developed in Python (code available)
+",New plugin for gvSIG 2.4: Statistics Viewer,link,https://blog.gvsig.org/2018/03/01/new-plugin-for-gvsig-2-4-statistics-viewer/,2018-03-02 04:58:00,0,0,0,Alvaro Anguix Alfaro,0,0,0,0,0,0,0
+27388384578_10156209472159579,"For anyone interested in Python instrumentation and asyncio
+",Context information storage for asyncio - Sqreen Blog | Modern Application Security,link,https://blog.sqreen.io/asyncio/,2018-03-02 04:52:53,1,0,0,Paul Blei,1,0,0,0,0,0,0
+27388384578_10156209352399579,"Adding Django to Nginx with Docker
+Author : Louis T Getterman IV
+",2017:09:14:adding-django-to-nginx-with-docker [Louis T. Getterman IV],link,https://thad.getterman.org/2017/09/14/adding-django-to-nginx-with-docker,2018-03-02 04:10:16,0,0,0,Gaurav Singh,0,0,0,0,0,0,0
+27388384578_10156208708884579,I am  New Here i want to learn Python please Tell me where to Start.,,status,,2018-03-01 23:09:20,4,2,0,Raveendra Roodagi,4,0,0,0,0,0,0
+27388384578_10156208342694579,https://hackernoon.com/how-we-launched-our-first-mvp-in-one-month-6239aca8e63e,How we launched our first MVP in one month – Hacker Noon,link,https://hackernoon.com/how-we-launched-our-first-mvp-in-one-month-6239aca8e63e,2018-03-01 20:43:26,2,0,0,Kevin Sahin,2,0,0,0,0,0,0
+27388384578_10156206100949579,"Hello friends
+I am new image processing using python...... plz suggest me book thats make good concepts on image processing",,status,,2018-03-01 01:34:27,0,3,0,Ali Afghan,0,0,0,0,0,0,0
+27388384578_10156208251204579,Links to 7 video lessons on Python sequence selection and iteration ,Python Program Structures,link,http://www.pythonbytesize.com/python-program-structures1.html,2018-03-01 19:38:13,1,0,0,John Philip Jones,1,0,0,0,0,0,0
+27388384578_10156205712854579,"Hello everyone! 
+Do we have any polish Python rockstars (based in Warsaw)? If so... I've got an awesome project for u guys so If you have at least 2 years of experience, feel free to contact me via e-mail (gabriela.witkowska@gogoapps.io) or priv. 
+I will share the details 💯🧐",,status,,2018-02-28 22:36:13,0,2,0,Gabriela Witkowska,0,0,0,0,0,0,0
+27388384578_10156206037899579,What is wrong with my code,Photos from Deepak Sharma's post,photo,https://www.facebook.com/photo.php?fbid=975543152598411&set=gm.10156206037899579&type=3,2018-03-01 01:05:49,1,4,0,Deepak Sharma,1,0,0,0,0,0,0
+27388384578_10156205151809579,"Hello guys, who can write a script to enter raffle? 
+paying good money
+
+PM for infos :)",,status,,2018-02-28 17:23:05,2,5,0,Nicolò Corato,2,0,0,0,0,0,0
+27388384578_10156206687419579,"why? the code does not work when you select 1 for the second time
+could you help me
+https://pastebin.com/M8AZT9Lx",,photo,https://www.facebook.com/photo.php?fbid=180897012687287&set=gm.10156206687419579&type=3,2018-03-01 05:44:15,3,5,0,David Albarran,3,0,0,0,0,0,0
+27388384578_10156207016069579,"So I have found out recently that you can design 3D or Animation, etc. things with Python on Blender ..... Please is there anything else that this language can do that I might not know of?",,status,,2018-03-01 08:07:07,2,4,0,Hony Intel,2,0,0,0,0,0,0
+27388384578_10156207246759579,"Does anyone here had worked with Jython? How does it work? Do you know a good source of Jython tutorials? Can I use it in Hadoop? Does it support the Lenskit (toolkit in java)? Recommend some materials, please!",,status,,2018-03-01 09:35:28,0,0,0,Leandro Eleutério,0,0,0,0,0,0,0
+27388384578_10156207123099579,,Docker meets Flask and Postgres – The Andela Way – Medium,link,https://medium.com/the-andela-way/docker-meets-flask-and-postgres-5259d4a87c03,2018-03-01 08:48:18,4,0,0,Robert O'Connor,4,0,0,0,0,0,0
+27388384578_10156205326789579,"Please if anyone has use kivy how did you solve this problem >> Minimum required openGL version (2.0) NOT found Try upgrading your graphics drivers and/or your graphics hardware in case of problems.
+<<
+i have tried this solutions and it did not work 
+
+(>>)
+  from kivy import Config
+ Config.set('graphics', 'multisamples', '0')
+(<<)
+AND 
+(>>)pip install kivy.deps.angle
+
+set KIVY_GL_BACKEND=angle_sdl2
+(<<)
+Please i don't want to against group roles i just want to free myself from this frustration",,status,,2018-02-28 19:06:16,0,1,0,Fon Desmond,0,0,0,0,0,0,0
+27388384578_10156206446174579,"Vacante Desarrollador Python en CDMX!!!
+Interesados favor enviar CV al E-mail: recursos@asatec.com.mx",,photo,https://www.facebook.com/photo.php?fbid=1650986454985776&set=gm.10156206446174579&type=3,2018-03-01 04:12:38,1,0,0,Chely Rivera,1,0,0,0,0,0,0
+27388384578_10156206412004579,,Asynchronous Tasks with Flask and Redis Queue,link,https://testdriven.io/asynchronous-tasks-with-flask-and-redis-queue#.Wpb7O5YWFh8.facebook,2018-03-01 03:56:08,3,0,0,Michael Herman,3,0,0,0,0,0,0
+27388384578_10156205999539579,Someone who has their book. Pyimagesearch,,status,,2018-03-01 00:46:16,2,0,0,Gilberto Espinoza,2,0,0,0,0,0,0
+27388384578_10156188127664579,"Hi all,
+I am beginner in python. I wrote a script. In ideal case it should open N files (different path to them  lines[i]) and plot images from them. It plots only last one. So, I decided to save them in array/matrix (3D). My loop never ending. It repeats to open first file. Any idea where am I wrong? Thank you in advance!
+
+i=0
+
+while i< 3:   
+ CHL_name = Dpath+'/'+ lines[i]+'/'+'chl_nn.nc'
+ CHL_name = CHL_name.replace('\n', '').replace('\r', '')
+ print(lines[i])
+ CHL_file=nc.Dataset(CHL_name, 'r')
+ CHL=CHL_file.variables['CHL_NN'][:]
+ [w1, w2]=CHL.shape
+ d=[CHL[:][:][i]]
+ print ('CHL_NN_Size=', w1, w2)
+ CHL_file.close()
+ plt.imshow(CHL)
+i +=1",,status,,2018-02-22 23:33:27,5,15,0,Elena Nikolaeva,5,0,0,0,0,0,0
+27388384578_10156202998864579,"hi guys :)
+im reading files with np.loadtxt()
+if the file is empty i'm getting UserWarning
+how can i catch those warnings and print 'empty file'?
+thanks!",,status,,2018-02-28 01:27:38,2,3,0,Ofir Machluf,2,0,0,0,0,0,0
+27388384578_10156202658924579,"Hi programmers 
+can any one hellp me :
+
+i want to read ( text file ) from ( filedailoge ) and check the content of each word of the line by comparison the words with dictionaries and give it wight like 0 or 1 if found in dic x or dic y and put the wight in feature vector then found the summation of the vector same thing in other lines of text then i want to put the result of vector summation on lines in another vector and display good if more than 0 and bad if less than 0 and between if 0
+
+can you write the code to me please",,status,,2018-02-27 22:48:50,0,2,0,سےردار ےے,0,0,0,0,0,0,0
+27388384578_10156203468484579,plzz!!!anyone give me a task related to dictionaries...,,status,,2018-02-28 04:37:10,1,9,0,Malik Haroon,1,0,0,0,0,0,0
+27388384578_10156073519389579,"Hi guys! We are organizing for 3rd consecutive year the practical conference about Machine Learning applications Machine Learning Prague (March 23-25, 2018)
+
+We count this year with 5 Workshops Python related:
+▪Cloudera Data Science Workbench
+▪Deep Learning for Music Classification using Keras
+▪Gensim: Topic modeling for humans
+▪Deep learning for text processing
+▪Recommender Systems at Seznam.cz
+
+You can see the full program here: https://www.mlprague.com/#schedule",,photo,https://www.facebook.com/photo.php?fbid=299461543909800&set=gm.10156073519389579&type=3,2018-01-15 21:47:26,1,1,0,Gonzalo Fernández,1,0,0,0,0,0,0
+27388384578_10156202573749579,Why sololearn doesnt teach about 'literals' and 'format' ??,,status,,2018-02-27 22:04:15,8,3,0,M Ali M Ali,7,1,0,0,0,0,0
+27388384578_10156205366129579,"I have added 24 Python tkinter video lessons and 14 Dictionary video lessons to PythonByteSize they can be located at the following links: http://www.pythonbytesize.com/python-tkinter.html http://www.pythonbytesize.com/python-dictionaries.html
+Please share as it helps keep the video series free to view.",,status,,2018-02-28 19:37:18,1,0,0,John Philip Jones,1,0,0,0,0,0,0
+27388384578_10156205357114579,We are on a very right direction friends. Python is Ranked 2nd in this article as a most in demand programming Language.,The 7 Most In-Demand Programming Languages of 2018 - Coding Dojo Blog,link,http://www.codingdojo.com/blog/7-most-in-demand-programming-languages-of-2018/,2018-02-28 19:30:48,4,0,0,Swaroop Humane,4,0,0,0,0,0,0
+27388384578_10156205318714579,,AlladaTech,link,http://alladatech.com/course-python-courses-gachibowli,2018-02-28 18:59:42,1,0,0,Veena Sree,1,0,0,0,0,0,0
+27388384578_10156204646679579,any chennai folks can teach python?,,status,,2018-02-28 12:44:24,0,2,0,Prithiv Rao,0,0,0,0,0,0,0
+27388384578_10156204450809579,"The below code will take a text file as input and encrypt it and store it the output in a separate folder. Now I needs to take input of entire files from folders with some formats like txt/csv/xlsx. How can i achieve that. Please experts help 
+import os
+dd = {'A': ')', 'a': '0', 'B': '(', 'b': '9', 'C': '*', 'c': '8',
+    'D': '&', 'd': '7', 'E': '^', 'e': '6', 'F': '%', 'f': '5',
+    'G': '$', 'g': '4', 'H': '#', 'h': '3', 'I': '@', 'i': '2',
+    'J': '!', 'j': '1', 'K': 'Z', 'k': 'z', 'L': 'Y', 'l': 'y',
+    'M': 'X', 'm': 'x', 'N': 'W', 'n': 'w', 'O': 'V', 'o': 'v',
+    'P': 'U', 'p': 'u', 'Q': 'T', 'q': 't', 'R': 'S', 'r': 's',
+    'S': 'R', 's': 'r', 'T': 'Q', 't': 'q', 'U': 'P', 'u': 'p',
+    'V': 'O', 'v': 'o', 'W': 'N', 'w': 'n', 'X': 'M', 'x': 'm',
+    'Y': 'L', 'y': 'l', 'Z': 'K', 'z': 'k', '!': 'J', '1': 'j',
+    '@': 'I', '2': 'i', '#': 'H', '3': 'h', '$': 'G', '4': 'g',
+    '%': 'F', '5': 'f', '^': 'E', '6': 'e', '&': 'D', '7': 'd',
+    '*': 'C', '8': 'c', '(': 'B', '9': 'b', ')': 'A', '0': 'a',
+    ':': ',', ',': ':', '?': '.', '.': '?', '<': '>', '>': '<',
+    ""'"": '""', '""': ""'"", '+': '-', '-': '+', '=': ';', ';': '=',
+    '{': '[', '[': '{', '}': ']', ']': '}'}
+
+def encryption():
+    infile = str(input('Enter the name of the input file: '))
+    dtext = open(infile, 'r')
+    dtext = dtext.readlines()
+    encryptText(dtext)
+
+def encryptText(dtext):
+    outfile = str(input('Enter the name of the output file: '))
+    etext = open(outfile, 'w')
+    for line in dtext:
+        for cword in line:
+            encrypted = (dd.get(cword, cword))
+            etext.write(encrypted)
+    etext.close()
+encryption()",,status,,2018-02-28 11:12:24,1,2,0,Prithiv Rao,1,0,0,0,0,0,0
+27388384578_10156199221714579,"I started learning programming(with Python) 3 years ago..
+But all i have learned is only how to write simple programmes.. with basic stuff like loops, functions etc..
+How can it be useful to get a job?
+What else should i learn?
+To train myself get better and speak with professionals?😞
+Thanks",,status,,2018-02-26 18:51:43,4,6,0,Muhannad AK,4,0,0,0,0,0,0
+27388384578_10156199188644579,How do I get certified in python? please I need your suggestions able programmers,,status,,2018-02-26 18:19:26,4,5,0,Agada Fred,4,0,0,0,0,0,0
+27388384578_10156204979304579,,AI Beats Human Lawyers at Contract Reading - By being 200 Times Faster!,link,https://buff.ly/2oA67NR,2018-02-28 15:27:46,5,0,1,Kalyan Katikapalli,5,0,0,0,0,0,0
+27388384578_10156204935039579,https://medium.com/@sharma.ashish.1996/carrom-design-finishing-touch-f7530be630c6,Carrom Design Finishing Touch – Ashish Sharma – Medium,link,https://medium.com/@sharma.ashish.1996/carrom-design-finishing-touch-f7530be630c6,2018-02-28 15:09:39,2,0,0,Ashish Sharma,2,0,0,0,0,0,0
+27388384578_10156203812009579,"Is there anyway to randomly select a number of elements and return the elements as well as their indices (number of row) from an array? I try many ways like np.choose, random.sample, but they did not return the indices.",,status,,2018-02-28 06:22:13,1,6,0,Hồng Luân,1,0,0,0,0,0,0
+27388384578_10156187004224579,"Hola, buen día. Cuál manera es la mejor para leer en Python variables dentro de otro archivo como .txt o .xlm? En el archivo va algo como (mover motor1= ""RPM"") donde RPM es la variable que necesito tipo int. He intentado dejar el formato del texto como Listas (d= [mover motor1, RPM, ...] ) y en Python leerlas (d = (archivo.txt, r); d =[1]; ...  No funciona jajaja pido ayuda, agradezco su tiempo buen día a todos.",,status,,2018-02-22 12:30:31,2,5,0,Ivan Dario Guerrero Garcia,2,0,0,0,0,0,0
+27388384578_10156200574469579,"I am starting a series of polls to update the lists of books, tutorials etc. After the data is collected the links in the FAQ will be updated.
+Part I - Python Books (if you can add the level beginner/advanced) after the book name.",,status,,2018-02-27 05:03:32,5,3,0,Ilian Iliev,5,0,0,0,0,0,0
+27388384578_10156203330909579,"Python editors for beginners and teachers - if you are an experienced Python programmer, you have many choices when it comes to IDEs and editors. But if you are a beginner or teacher? Some ides here...
+","Python IDEs for beginners - Thonny, Geany or Idle",link,https://projectcodeed.blogspot.com.es/2018/02/python-ides-for-beginners-thonny-geany.html,2018-02-28 03:38:23,3,0,0,Alan Jones,3,0,0,0,0,0,0
+27388384578_10156199206954579,Hi. Where can I find some practical exercises for beginners?,,status,,2018-02-26 18:37:18,10,12,1,Tomasz Urbaniak,10,0,0,0,0,0,0
+27388384578_10156203148839579,http://itmithran.com/python-program-get-os-information-active-ports-public-private-ip-address-linux/,"Python program to get the OS information, Active Ports and Public and Private IP address in Linux - ITMithran",link,http://itmithran.com/python-program-get-os-information-active-ports-public-private-ip-address-linux/,2018-02-28 02:19:53,3,0,0,Thirumalai Dhamodharan,3,0,0,0,0,0,0
+27388384578_10156202632114579,,Analytics Vidhya,link,https://buff.ly/2F0DRuG,2018-02-27 22:36:47,0,0,0,Sunil Ray,0,0,0,0,0,0,0
+27388384578_10156199382214579,"Hi,
+I got opportunity to attend in deep learning education (for Free) ... education require basic Python knowledge. What means basic knowledge in that context?
+I know some novice things in Python but Im not sure would that suffice... 
+Can somebody give me advice what to learn for Python in that context. I plan to learn Python but I need some direction for first aid.. or to say methaporically what i need to know to land an aircraft ... i will learn other things later.
+Thank you",,status,,2018-02-26 21:04:05,6,2,0,Gordan Berakovic,6,0,0,0,0,0,0
+27388384578_10156198850399579,Plz suggest python supporting hostings,,status,,2018-02-26 13:38:09,1,6,0,Ajith Kumar,0,1,0,0,0,0,0
+27388384578_10156195657839579,"I am taking python classes and preparing for a quiz. Can someone suggest where I can get practice questions on the following topics:
+
+list, 
+list comprehension, 
+dictionary, 
+tuples, 
+for-loop, 
+while-loop,
+if-condition.
+
+I am comfortable with the loops - for loop, while loop and if condition, and also comfortable with lists. I would like to practice on list comprehension, dictionary and tuples.
+
+This is going to be closed book, no internet quiz, so I really need to get the syntax correct.",,status,,2018-02-25 11:54:54,5,10,0,Deep Rastogi,5,0,0,0,0,0,0
+27388384578_10156201966669579,,Best uses of AI and machine learning in business,link,https://www.computerworlduk.com/galleries/it-business/uses-of-ai-machine-learning-in-business-3639749/,2018-02-27 15:51:12,8,0,3,Mihail Gheorghe,8,0,0,0,0,0,0
+27388384578_10156200126109579,"Hello everyone,
+
+I'm using TensorFlow Google API for object detection and I need to pass the output (json) from Python to NodeJs in order to treat it (Send alerts when harmful objects are detected).
+
+Do you guys have an idea about a proper way to do it? The output is changing instantly depending on the detected object which means a web service is not a solution for this problem.
+I've done some digging and i've seen that socket.io is a solution to this.. 
+
+Any ideas? Thanks in advance.",,status,,2018-02-27 02:13:22,0,2,0,Saïd Tahri,0,0,0,0,0,0,0
+27388384578_10156200607414579,"Hello fellow Python programmers,
+Recently I wrote an article about managing Python environments with Conda, I hope you'll find it useful!
+
+Please let me know if you have any thoughts about this topic (aspects I did not cover, good tips, efficient workflow etc.)!
+
+I'm planning to write more about utilizing Python, so please tell me what topics you find most challenging! Thanks in advance!
+
+(And also thanks for adding me to this group, I'm looking forward to have discussions with you!)",Why You Need Python Environments and How to Manage Them with Conda,link,https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c,2018-02-27 05:12:47,6,0,0,Gergely Szerovay,6,0,0,0,0,0,0
+27388384578_10156199819064579,"Hello Python lovers,
+
+The Python Challenge 2018 (Belgium - Luxembourg) organized in collaboration with Cisco & ECAM (School of Engineering) has begun on EDITx !
+
+It's fun and playful ! And there are a lot of amazing prizes to win !
+
+Good luck to all :)",Python Challenge Belux 2018,link,https://www.editx.eu/it-challenge/python-challenge-belux-2018,2018-02-27 00:17:17,6,2,0,Edwin Grand,6,0,0,0,0,0,0
+27388384578_10156199257864579,"Planning to Buy 4-5 Books on Python (Python 3). 
+Not Sure Which book to choose ... (Already Googled It, Read the Pinned Post). 
+Let me know your Suggestions as per your Experience.
+Specifically i am looking for a book which covers from basic to advance concepts and Some of the Data Analysis would be great.
+
+(P.S - Please Comment Faster as i am afraid the admin will disable commenting.lol. :D :D :D )",,status,,2018-02-26 19:26:33,2,3,0,Swaroop Humane,2,0,0,0,0,0,0
+27388384578_10156199574334579,"For given Dictionary: pets = {‘bird’:3.5,’cat’: 5.0,’dog’: 7.25,’gerbil’: 1.5}
+Ask the user to enter a pet, and tell them the price. 
+If an invalid pet is picked, tell the user nicely and let them try again( Use try and Except)
+. All I was able to write the code is below, can somebody tell me how to throw exception if user input(pets_name) doesnt match any key in given Dict?",,photo,https://www.facebook.com/photo.php?fbid=1700723789950999&set=gm.10156199574334579&type=3,2018-02-26 22:29:45,20,8,0,Chinar Dhingra,20,0,0,0,0,0,0
+27388384578_10156197236119579,"please help me ..
+i have installed Anaconda 4.3.0.. But when I import math , it throws error that no module named as math.
+
+What can be the error , please help me",,status,,2018-02-26 02:27:00,3,5,0,Aanya Atiq Awan,3,0,0,0,0,0,0
+27388384578_10156190807059579,"Hi guys
+I've finished making Face Recognition project, whether the project Face Recognition can be connected to database ?
+ Sorry i newbie 😊",,video,https://www.facebook.com/592189521123582/videos/588580911484443,2018-02-23 22:13:28,95,11,2,Akmal Erfandi,83,2,9,1,0,0,0
+27388384578_10156199716399579,"AttributeError: 'module' object has no attribute 'createLBPHFaceRecognizer'
+#how_to _solve_this problem",,status,,2018-02-26 23:37:15,1,2,0,Prabin,1,0,0,0,0,0,0
+27388384578_10156199580819579,Hello everybody id like to know what program to use when you want to run a python program.For example you can use JDK for java n wt about python?thx,,status,,2018-02-26 22:32:15,1,2,0,Emery Emilio,1,0,0,0,0,0,0
+27388384578_10156199260434579,"We are looking for a Senior Software Engineer for our client in Barcelona. Our client is a fast-growing startup, focused on AI in retail sector.
+We need:
+- min 4 years of experience, mostly with Python
+- experience with AWS
+- Advanced level of English (no Spanish necessary)
+- EU Citizenship/passport/work permit
+- Git, Mongo, Docker are a plus!
+We offer:
+- Salary level between €36.000-€46.000 gross/year
+- Permanent contract
+- Possibility of working in an international city in the center of Barcelona 
+- Influence on company´s future
+Contact us at international@pndtalent.com",P&D TALENT INTERNATIONAL,photo,https://www.facebook.com/recruitmentalent/photos/a.320111615091378.1073741828.320099928425880/420636921705513/?type=3,2018-02-26 19:29:25,2,0,0,Mateus Romanowski,2,0,0,0,0,0,0
+27388384578_10156196204039579,"hi all !
+Please, i  need some intermediate level projet in python (not small exercices but projet). Can you give me some link or website where i can find them ? thanks you.",,status,,2018-02-25 16:35:13,2,3,0,Traoret Treson Tresor,2,0,0,0,0,0,0
+27388384578_10156196207074579,Hello . What is the meaning of the error in the picture and how can it be added as the first factor in line 13. Note I've used other methods and all of them work but I want to know the meaning of the error and how I can get it,,photo,https://www.facebook.com/photo.php?fbid=130936911062273&set=gm.10156196207074579&type=3,2018-02-25 16:37:48,5,1,0,Samer Ahmed,5,0,0,0,0,0,0
+27388384578_10156198523759579,"Configuring pip for different package installation within python is an important step for Python Beginners. 
+
+Then you are all set to install matplotlib, panda or any other packages with the command, ex-
+
+pip install matplotlib
+Or
+pip install panda
+
+Check out the below video for detailed assistance-
+
+",How to install or configure pip for python?,video,https://youtu.be/6INcARi7QN0,2018-02-26 11:28:03,0,0,0,Saurabh Sharma,0,0,0,0,0,0,0
+27388384578_10156195313124579,doc of my new game,,video,https://www.facebook.com/1910346299278630/videos/1907149329598327,2018-02-25 09:21:33,9,2,0,Ohior Saint,9,0,0,0,0,0,0
+27388384578_10156197656374579,salut comment sa va? j'ai un problème avec le module tkinter sous python 3. jsuis conscient que ''Tkinter'' marche avec python 2 et ''tkinter'' avec python 3. mais quelques soit la lettre majuscule ou minuscule il ne marche pas. quelqu'un a une solution ? bizarrement il marche seulement avec mon code de jeux de dame lorsque je l'importe mais en dehors de ce code de jeux de dame il ne marche pas. j'ai besoin d'une solution.,,status,,2018-02-26 05:15:40,0,2,0,Mariko Seydou Abdallah,0,0,0,0,0,0,0
+27388384578_10156182454549579,A tutorial on how to run UI Automation Tests on remote Linux servers with Chrome headless! #TestAutomation #ChromeHeadless #Python,Running Chrome Headless with Selenium & Python on Linux Servers | TestProject,link,https://blog.testproject.io/2018/02/20/chrome-headless-selenium-python-linux-servers/,2018-02-21 02:02:43,19,3,0,Shirley Perkins,19,0,0,0,0,0,0
+27388384578_10156192838449579,"I defined this class in an iPython terminal.  I then ran the lines
+
+>> Thing()
+>> 1+1
+
+I understand that, after the first line, the result of Thing() is still bound to the _ variable.  However, why doesn't the object get cleaned up after I calculate 1+1?",,photo,https://www.facebook.com/photo.php?fbid=10106990425094110&set=gm.10156192838449579&type=3,2018-02-24 13:16:25,5,8,0,Daniel Walker,5,0,0,0,0,0,0
+27388384578_10156197178904579,"why there is error like that 
+
+ for row in inpts:
+_csv.Error: iterator should return strings, not bytes (did you open the file in text mode?)
+
+when i run this code 
+
+inpts = csv.reader(open('data_s.csv', 'rb'), delimiter=',', quotechar='|')",,status,,2018-02-26 02:01:14,1,3,0,سےردار ےے,1,0,0,0,0,0,0
+27388384578_10156196610099579,"I am having one peculiar problem. I am using paramiko for remote get.
+
+I have simple code to connect to remote host and getting the file in local. Now when I run this manually I can connect to server and get the files. However when I am scheduling it from cronjob, the connection is successful but get is not happening. I have no clue why it is not happening.
+
+The server connection is password less. Any help?",,status,,2018-02-25 21:38:03,0,2,0,Anirban Nag,0,0,0,0,0,0,0
+27388384578_10156197212249579,"Please see this video.Python Bengali Programming Language tutorial. This video we covered how to work with If - Else Statement in Python.I hope you can learn something about Python.Please like,share and subscribe.
+Thank You.
+
+",Python Bengali Tutorial For Beginners - 7 - If Else Statement,video,https://www.youtube.com/watch?v=HweZyJu73jY&list=PLyS31O9DjoYd3Rsffw1E0y_CNmY-65kwi&index=7&t=0s,2018-02-26 02:16:21,1,0,1,Md Abu Horyra Pranto,1,0,0,0,0,0,0
+27388384578_10156197045339579,"anyone familiar with, android (sl4a) module here?",,status,,2018-02-26 01:07:34,0,0,0,Ifeanyi Christwin,0,0,0,0,0,0,0
+27388384578_10156196992479579,https://medium.com/@sharma.ashish.1996/design-using-turtle-in-python-13f7e2d59fc6,Design Using Turtle In Python – Ashish Sharma – Medium,link,https://medium.com/@sharma.ashish.1996/design-using-turtle-in-python-13f7e2d59fc6,2018-02-26 00:43:14,0,0,0,Ashish Sharma,0,0,0,0,0,0,0
+27388384578_10156196599834579,"Had my article on TDD in Python featured on FreeCodeCamp's Medium page 💻 Highly recommend everyone to document your learning, especially if you are self-taught 👨‍💻👩‍💻",A simple introduction to Test Driven Development with Python,link,https://medium.freecodecamp.org/learning-to-test-with-python-997ace2d8abe,2018-02-25 21:33:13,0,0,0,Dmitry Rastorguev,0,0,0,0,0,0,0
+27388384578_10156195692669579,"Can I get python script which will automatically generate traffic on website (But from different IPs everytime, may be with vpn)?",,status,,2018-02-25 12:10:27,1,1,0,Saurabh Shelar,1,0,0,0,0,0,0
+27388384578_10156194131464579,Looking for a way to edit a variable within a running python application without restarting the process.,,status,,2018-02-25 01:40:26,3,8,0,William Coppola,3,0,0,0,0,0,0
+27388384578_10156196371834579,Startups,MAD Programmers,photo,https://www.facebook.com/MADprogrammers12/photos/a.1944048245807061.1073741826.1944034662475086/2097047950507089/?type=3,2018-02-25 18:38:03,2,0,0,Prakash Lale,2,0,0,0,0,0,0
+27388384578_10156196274534579,,Remix | Guru Randhawa | MUSIC MAFIA | Remix 2017,video,https://youtu.be/Tu3Xi_kgEwI,2018-02-25 17:35:50,0,0,0,Piyush Kumar,0,0,0,0,0,0,0
+27388384578_10156191859909579,"Hi all, do someone know the best way to host a (very) little website made with python and flask ? I'm currently trying helio host but I don't figure to setup properly my python script.
+
+BR",,status,,2018-02-24 05:47:27,0,9,0,Edouard Gielec,0,0,0,0,0,0,0
+27388384578_10156188429004579,,Setting up a Python Development Environment with and without Docker,link,https://nickjanetakis.com/blog/setting-up-a-python-development-environment-with-and-without-docker,2018-02-23 02:09:12,8,1,0,Robert O'Connor,8,0,0,0,0,0,0
+27388384578_10156194881319579,,Kubernetes and everything else,link,https://rinormaloku.com/introduction-application-architecture/,2018-02-25 06:24:30,5,0,2,Robert O'Connor,5,0,0,0,0,0,0
+27388384578_10156194306254579,"# Package necessari al programma
+import winsound
+
+################################################################################
+# Program_Main: Function or main program, from which the execution starts true
+#               of the code.
+################################################################################
+def Program_Main():
+    # Inizializza una variabile locale con un valore intero
+    numScelta = 54
+
+    print(""Stampa sullo schermo alcuni caratteri del set Ascii."" + ""\n\n""
+          ""1) Mostra lettere maiuscole."" + ""\n""
+          ""2) Mostra le lettere minuscole."" + ""\n""
+          ""3) Mostra i numeri."" + ""\n""
+          ""0) Conclude l'esecuzione del programma."" + ""\n\n"")
+
+    # Ripete
+    while (numScelta != 0):
+        # Aspetta la scelta dell'utente
+        numScelta = int(input(""Fai la tua scelta : ""))
+
+        # Ne testa il valore numerico
+        Controlla_Scelta(numScelta)
+
+    return 0
+
+################################################################################
+# Controlla_Scelta : Examines the numeric value of the 'numScelta' variable of
+#                    the 'main'. The function reads this data in 'miaScelta'
+#                    (local to it, we have a passage of parameters by value). At
+#                    the end of the job, the choice is returned.
+################################################################################
+def Controlla_Scelta(miaScelta):
+    print(""\n\n""
+          ""Testa il valore numerico della scelta fatta.""
+          ""\n\n"")
+
+    # Avvia il test
+    if (miaScelta == 1):
+        # Stampa le lettere maiuscole
+        Mostra_Maiuscole()
+
+    elif (miaScelta == 2):
+        # Stampa le lettere minuscole
+        Mostra_Minuscole()
+
+    elif (miaScelta == 3):
+        # Stampa i numeri
+        Mostra_Numeri()
+
+    elif (miaScelta == 0):
+         # Conclude il programma
+         print(""Terminazione del programma per scelta dell'utente...""
+               ""\n\n"")
+         winsound.Beep(3000, 300)
+
+    else:
+        # Mostra messaggio d'errore
+        print(""Numero scelta non valido, od opzione inesistente !""
+              ""\n\n"")
+        winsound.Beep(3000, 300)
+
+    return miaScelta
+
+################################################################################
+# Mostra_Maiuscole : Print the uppercase letters of the table on the screen
+#                    Ascii. At the end of the job, zero ('0') returns.
+################################################################################
+def Mostra_Maiuscole():
+    # Inizializza le variabili necessarie con un valore
+    startMaiuscola = 65
+    endMaiuscola = 90
+    carMaiuscolo = ''
+
+    print(""\n\n""
+          ""Stampa delle lettere maiuscole sullo schermo.""
+          ""\n\n"")
+
+    # Stampa le lettere maiuscole utilizzando un ciclo for..in
+    for carMaiuscolo in range (startMaiuscola, endMaiuscola + 1, 1):
+        print(""Maiuscola : %c\n"" %(carMaiuscolo))
+
+    return 0
+
+################################################################################
+# Mostra_Minuscole : Print the lower case letters on the screen Ascii. At the
+#                    end of the job, zero ('0') returns.
+################################################################################
+def Mostra_Minuscole():
+    # Inizializza le variabili necessarie con un valore
+    startMinuscola = 97
+    endMinuscola = 122
+    carMinuscolo = ''
+
+    print(""\n\n""
+          ""Stampa delle lettere minuscole sullo schermo.""
+          ""\n\n"")
+
+    # Stampa le lettere minuscole utilizzando un ciclo 'for..in'
+    for carMinuscolo in range (startMinuscola, endMinuscola + 1, 1):
+        print(""Minuscola : %c\n"" %(carMinuscolo))
+
+    return 0
+
+################################################################################
+# Mostra_Numeri : Print the numbers in the Ascii table on the screen. At the end
+#                 of the work, returns zero ('0').
+################################################################################
+def Mostra_Numeri():
+    # Inizializza le variabili necessarie con un valore
+    startNumero = 48
+    endNumero = 57
+    carNumero = ''
+
+    print(""\n\n""
+          ""Stampa dei numeri sullo schermo.""
+          ""\n\n"")
+
+    # Stampa i numeri utilizzando un ciclo 'for..in'
+    for carNumero in range (startNumero, endNumero + 1, 1):
+        print(""Numero : %c\n"" %(carNumero))
+
+    return 0
+
+# Codice necessario per il test di debug
+Program_Main()",,status,,2018-02-25 02:57:00,0,1,1,Giancarlo Fadda,0,0,0,0,0,0,0
+27388384578_10156194577874579,¿Estás en búsqueda de nuevas colaboraciones? Aplica para esta vacante desde nuestro portal del empleo https://goo.gl/JaSYFf o envíanos tu CV a contacto@devhive y nosotros te contactamos,devhive,photo,https://www.facebook.com/devhive/photos/a.1434837320061303.1073741828.1407573966120972/2010761259135570/?type=3,2018-02-25 04:54:15,3,0,0,Dan Osbourne,3,0,0,0,0,0,0
+27388384578_10156192024619579,"I did my best at this one, look at the results, it's an error.",,photo,https://www.facebook.com/photo.php?fbid=162855571188908&set=gm.10156192024619579&type=3,2018-02-24 07:00:53,10,16,0,Saladin Al Ayubi,10,0,0,0,0,0,0
+27388384578_10156193372994579,"Algunas apps para aprender a programar en python 
+
+Some apps to learn to program in python",,status,,2018-02-24 19:12:39,1,6,0,Luis M Jimenez,1,0,0,0,0,0,0
+27388384578_10156194360339579,"Hi somebody con help mi 
+https://pastebin.com/WdrXDNPL",Photos from David Albarran's post,photo,https://www.facebook.com/photo.php?fbid=179000742876914&set=gm.10156194360339579&type=3,2018-02-25 03:25:41,5,2,0,David Albarran,5,0,0,0,0,0,0
+27388384578_10156194332264579,"https://technicallyagarwal.wordpress.com/2018/02/24/mp3-clutter-python/
+
+Hey! I wrote a Python script which leverages the Spotify Web API to obtain metadata for a song and modifies it using this obtained data. Read on to see how I did this!","Clearing Your MP3 Clutter Using Python, eyed3 and Spotify.",link,https://technicallyagarwal.wordpress.com/2018/02/24/mp3-clutter-python/,2018-02-25 03:10:32,0,0,0,Malay Agarwal,0,0,0,0,0,0,0
+27388384578_10156176018279579,"Hi Guys..This is for people who have experience in integrating Python with  Elasticsearch..need some help in doing a bulk load to an index created in Elastic search using python code.. I am using Elasticsearch 6.1.1 version package to get this done..I'm getting an error ""Content type header[] not supported"" on using both bulk() and helpers.bulk() method..please guide me on how to get this resolved",,photo,https://www.facebook.com/photo.php?fbid=1796189293789550&set=gm.10156176018279579&type=3,2018-02-18 22:50:21,4,6,0,Balakrishnan Palakkil,2,1,0,0,1,0,0
+27388384578_10156194052184579,"Hello everyone, I am Nathaniel Houston-Suluku a student of Huazhong university of science and technology, Wuhan, China  pursuing my Masters in Information Communication Engineering.... I want to write my thesis on Information using Python as a programming language to develop some algorithm....However, i have problem of chosen a topic... I would like some one to help me with some propose topics for thesis....
+Thanks for your cooperation.......",,status,,2018-02-25 01:09:35,0,1,0,Nathaniel Houston-Suluku,0,0,0,0,0,0,0
+27388384578_10156190184859579,"My first project in Python with GUI (using Kivy), I'm very happy! Sorry my english, I'm brazilian... hihihi
+made by Android",Photos from Vinny Kilmister's post,photo,https://www.facebook.com/photo.php?fbid=489665768095596&set=gm.10156190184859579&type=3,2018-02-23 15:51:13,165,24,0,Vinny Kilmister,157,2,4,2,0,0,0
+27388384578_10156194036534579,"I have a python application that has an internal database. I am looking for a way to update or flush the database from outside the applications execution. I am currently utilizing named pipes to facilitate this action, any other solutions known ?",,status,,2018-02-25 01:04:28,0,0,0,William Coppola,0,0,0,0,0,0,0
+27388384578_10156193886669579,"SO, I'm trying to use cv2 or pyautogui to locate some 1's on my screen but it returns over 80 coordinates while there are 30-ish number I wanted to be found
+Every number is colored different, so theres no problem with that
+I've set it up so the mouse cursor follows each time it returns a coordinate and it keeps landing on some number 1's more than once and on some once and I cant figure out why
+Help would be really appreciated :D",,status,,2018-02-24 23:57:44,0,0,0,Kosta Plecevic,0,0,0,0,0,0,0
+27388384578_10156193730954579,Hello,,status,,2018-02-24 22:44:30,1,1,0,Mlimi An AI,1,0,0,0,0,0,0
+27388384578_10156193260134579,Which is the best framework to use when programming android using python,,status,,2018-02-24 17:30:20,5,5,0,Muasya Juma,5,0,0,0,0,0,0
+27388384578_10156193582259579,https://youtu.be/DtAhoLSCPl8,Learn Python | Python OOP Python Data Abstraction Encapsulation Hiding,video,https://youtu.be/DtAhoLSCPl8,2018-02-24 21:37:16,0,0,0,Thái Tuấn Anh,0,0,0,0,0,0,0
+27388384578_10156193315949579,"Hi everyone, Do anyone know what is the logic here? In the combined dataframe,value of key X in left hand side is 001122, on the other hand, it's 232323.",Photos from Stephen Fong's post,photo,https://www.facebook.com/photo.php?fbid=1699920230054979&set=gm.10156193315949579&type=3,2018-02-24 18:23:20,0,0,0,Stephen Fong,0,0,0,0,0,0,0
+27388384578_10156188050204579,"I have some txt file in the folder , I find them using os.listdir , for each file create  new  list same as file it read it from ?",,status,,2018-02-22 22:52:39,3,13,0,Ravyar Tahir,3,0,0,0,0,0,0
+27388384578_10156192049569579,"Hy Tkinter Users today I come with new documentation, Is about the ""Menu"" widget, a necessary widget in any application. ENJOY and if you like participate in my project (tkinter-manual.blogspot.com)",Menu - Create and manipulate menu widgets,link,https://tkinter-manual.blogspot.com/p/menu-create-and-manipulate-menu-widgets.html,2018-02-24 07:12:38,0,0,0,Kurt Irving,0,0,0,0,0,0,0
+27388384578_10156191998089579,"Data Science, Python and Analytics related discussion, trends, activities, opportunities and information can be found on following page... https://www.facebook.com/groups/1501661686712546/",,status,,2018-02-24 06:46:45,0,0,0,Sanjay Verma,0,0,0,0,0,0,0
+27388384578_10156191520584579,"I have a problem. I do not want the answer, I just want the way to get to it. I have a terrain that does not have a defined geometric shape, I want to divide this terrain into equal and possible areas to calculate the area of ​​each division.",,status,,2018-02-24 03:23:15,0,1,0,Divino Borges,0,0,0,0,0,0,0
