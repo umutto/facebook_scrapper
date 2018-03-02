@@ -38,7 +38,7 @@ def parse_posts(parse_type, target_id, date_start, date_end, max_status, out_pat
                          date_start, date_end,
                          max_status, out_path)
     elif parse_type.lower() == 'group':
-        scrape_group_feed(target_id, access_token,
+        scrape_group_feed(access_token, target_id,
                           date_start, date_end,
                           max_status, out_path)
 

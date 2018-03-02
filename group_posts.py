@@ -10,6 +10,10 @@ def scrape_group_feed(access_token, group_id, since_date, until_date,
     """
     Main function to iterate over paginations, statuses and parse them into a csv.
     Main difference between page_posts is the endpoints used.
+
+    group_id: argument must be id of the group, not the name.
+              Group ID can be found by looking for entity_id
+              in source code of desired group page.
     """
     out_path = out_path or 'out/groups/'
     with open(f'{out_path}{group_id}_statuses.csv', 'w', encoding='utf-8') as f:
@@ -36,7 +40,7 @@ def scrape_group_feed(access_token, group_id, since_date, until_date,
 
         # scrapes posts until max_status amount of statuses scraped
         # or there are no more statuses
-        while num_processed <= max_status:
+        while num_processed < max_status:
             base_url = (base + node + parameters + date_interval + paging
                         if base_url == '' else next_page)
 
