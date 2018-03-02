@@ -29,7 +29,7 @@ def get_page_response(url, retry_lim=50):
                 return response.read()
         except Exception as e:
             print(f"{datetime.datetime.now()} - Error for URL {url}\n" +
-                  f"{e}\nRetrying{i}/{retry_lim}")
+                  f"{e}\nRetrying{i+1}/{retry_lim}")
             time.sleep(5)
 
 
@@ -41,7 +41,10 @@ def get_reactions_from_status(base_url):
         fields = (f"&fields=reactions.type({reaction_type.upper()})" +
                   ".limit(0).summary(total_count)")
         url = base_url + fields
-        data = json.loads(get_page_response(url))['data']
+        response_url = get_page_response(url)
+        if not response_url:
+            continue
+        data = json.loads(response_url)['data']
 
         data_processed = set()
         for status in data:
