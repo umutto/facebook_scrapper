@@ -45,8 +45,20 @@ def scrape_group_feed(access_token, group_id, since_date, until_date,
                         if base_url == '' else next_page)
 
             url = utils.get_facebook_page_url(base_url, ',from')
-            statuses = json.loads(utils.get_page_response(url))
+
+            response_url = utils.get_page_response(url)
+            if not response_url:
+                print("{0} Failed! ID: {1} {0}\n{2} Can not get a response..\n"
+                      .format('-' * 10, group_id, num_processed))
+                return None
+
+            statuses = json.loads(response_url)
             reactions = utils.get_reactions_from_status(base_url)
+
+            if reactions == {}:
+                print("{0} Failed! ID: {1} {0}\n{2} Can not extract reactions..\n"
+                      .format('-' * 10, group_id, num_processed))
+                return None
 
             for status in statuses['data']:
                 # Ensure it is a status with the expected metadata
