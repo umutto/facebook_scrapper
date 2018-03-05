@@ -1,6 +1,7 @@
 import datetime
 import time
 import json
+import smtplib
 
 
 try:
@@ -91,3 +92,23 @@ def get_data_from_status(status):
 
     return (status_id, status_message, status_author, link_name, status_type,
             status_link, status_published, num_reactions, num_comments, num_shares)
+
+
+def send_email(username, password, target, body, header='Your script is done!'):
+    try:
+        with smtplib.SMTP('smtp.gmail.com', 587) as s:
+            s.ehlo()
+            s.starttls()
+            s.ehlo()
+
+            s.login(username, password)
+
+            msg = f'Subject: {header}\n\n{body}'
+            s.sendmail(username,
+                       target, msg)
+
+    except Exception as e:
+        print('Failed to send a notification e-mail. ')
+        print(e)
+    else:
+        print('Email sent.')

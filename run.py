@@ -3,6 +3,7 @@ import json
 import argparse
 from page_posts import scrape_page_feed
 from group_posts import scrape_group_feed
+from utils import send_email
 
 config = json.load(open('config.json'))
 app_id = config['app_id']
@@ -25,6 +26,8 @@ parser.add_argument(
     '-l', '--limit', help='Max number of statuses to parse per id. Needs to be in intervals of 100 for ease of use. Default: 500,000', type=int, default=500000)
 parser.add_argument(
     '-o', '--outPath', help='Output directory to save the resulting csv. Default is out/pages or out/groups.')
+parser.add_argument(
+    '-n', '--notificationTarget', help='Target e-mail address to notify when script finished running.')
 
 args = parser.parse_args()
 
@@ -67,5 +70,11 @@ if __name__ == '__main__':
         parse_posts(args.type, args.id, start_date,
                     end_date, args.limit, args.outPath)
     else:
-        print(
+        raise ValueError(
             'Required arguments are not satisfied (target id or file), please see -help')
+
+    if args.notificationTarget:
+        body = f'Your script with the following arguments has succesfuly finished execution at {datetime.datetime.now().strftime("%H:%M:%S - %d/%m/%Y")}'
+        body += f'\n\n{json.dumps(vars(args), indent=4)}'
+        send_email(config['mail_acc'], config['mail_pass'],
+                   args.notificationTarget, body)

@@ -1,4 +1,6 @@
 {
 	"app_id": "<YOUR_APP_ID_HERE>",
-	"app_secret": "<YOUR_APP_SECRET_HERE>"
+	"app_secret": "<YOUR_APP_SECRET_HERE>",
+	"mail_acc": "<YOUR_GMAIL_ADDRESS_HERE>",
+	"mail_pass": "<YOUR_GMAIL_PASSWORD_HERE>"
 }
