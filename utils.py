@@ -59,7 +59,7 @@ def get_reactions_from_status(base_url):
     return reactions_dict
 
 
-def get_data_from_status(status, is_group=False):
+def get_data_from_status(status):
     # The status is now a Python dictionary, so for top-level items,
     # we can simply call the key.
 
@@ -89,5 +89,5 @@ def get_data_from_status(status, is_group=False):
                     status['comments']['summary']['total_count'])
     num_shares = 0 if 'shares' not in status else status['shares']['count']
 
-    return (status_id, status_message, link_name, status_type, status_link,
-            status_published, num_reactions, num_comments, num_shares, status_author)
+    return (status_id, status_message, status_author, link_name, status_type,
+            status_link, status_published, num_reactions, num_comments, num_shares)
