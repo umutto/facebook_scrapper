@@ -26,7 +26,7 @@ python run.py -f group_names.txt -t group
 
 see `python run.py --help` for more information on arguments:
 
-```bash
+```
 python run.py --help
 usage: run.py [-h] [-t {page,group}] [-i ID] [-f FILE] [-s STARTDATE]
               [-e ENDDATE] [-l LIMIT] [-o OUTPATH]
