@@ -16,7 +16,8 @@ def scrape_page_feed(access_token, page_id, since_date, until_date,
     out_path = out_path or 'out/pages/'
     with open(f'{out_path}{page_id}_statuses.csv', 'w', encoding='utf-8') as f:
         w = csv.writer(f)
-        w.writerow(["status_id", "status_message", "link_name", "status_type",
+        w.writerow(["status_id", "status_message", "status_author",
+                    "link_name", "status_type",
                     "status_link", "status_published", "num_reactions",
                     "num_comments", "num_shares", "num_likes", "num_loves",
                     "num_wows", "num_hahas", "num_sads", "num_angrys",
@@ -56,7 +57,7 @@ def scrape_page_feed(access_token, page_id, since_date, until_date,
                     reactions_data = reactions[status_data[0]]
 
                     # calculate thankful/pride through algebra
-                    num_special = status_data[6] - sum(reactions_data)
+                    num_special = status_data[7] - sum(reactions_data)
 
                     w.writerow(status_data + reactions_data + (num_special, ))
 
