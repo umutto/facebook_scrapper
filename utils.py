@@ -19,7 +19,7 @@ def get_facebook_page_url(base_url, extras=''):
     return base_url + fields
 
 
-def get_page_response(url, retry_lim=50):
+def get_page_response(url, retry_lim=10):
     req = Request(url)
 
     for i in range(retry_lim):
