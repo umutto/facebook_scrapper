@@ -42,17 +42,12 @@ def scrape_page_feed(access_token, page_id, since_date, until_date,
 
             response_url = utils.get_page_response(url)
             if not response_url:
-                print("{0} Failed! ID: {1} {0}\n{2} Can not get a response..\n"
+                print("\n{0} Failed! ID: {1} {0}\n{2} Can not get a response..\n"
                       .format('-' * 10, page_id, num_processed))
                 return None
 
             statuses = json.loads(response_url)
             reactions = utils.get_reactions_from_status(base_url)
-
-            if reactions == {}:
-                print("{0} Failed! ID: {1} {0}\n{2} Can not extract reactions..\n"
-                      .format('-' * 10, page_id, num_processed))
-                return None
 
             for status in statuses['data']:
                 # Ensure it is a status with the expected metadata
