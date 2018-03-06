@@ -59,12 +59,13 @@ def scrape_group_feed(access_token, group_id, since_date, until_date,
                 # Ensure it is a status with the expected metadata
                 if 'reactions' in status:
                     status_data = utils.get_data_from_status(status)
-                    reactions_data = reactions[status_data[0]]
+                    reactions_data = reactions.get(status_data[0], None)
+                    if reactions_data:
+                        # calculate thankful/pride through algebra
+                        num_special = status_data[7] - sum(reactions_data)
 
-                    # calculate thankful/pride through algebra
-                    num_special = status_data[7] - sum(reactions_data)
-
-                    w.writerow(status_data + reactions_data + (num_special, ))
+                        w.writerow(status_data + reactions_data +
+                                   (num_special, ))
 
                 # output progress occasionally to make sure code is not
                 # stalling
