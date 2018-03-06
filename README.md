@@ -4,7 +4,11 @@ Web scraper for facebook posts from groups and pages using graph API.
 ---
 This is a port of [facebook page post scrapper](https://github.com/minimaxir/facebook-page-post-scraper) from [minimaxir](https://github.com/minimaxir). 
   
-I've been using this script for a while and been patching things to fit my use case. It ended up beeing a mutant version of the original, so I've made a careless refactoring recently and decided to put on my github.
+I've been using this script for a while and been patching things to fit my use case. It ended up beeing a mutant version of the original, so I've made a careless refactoring recently and decided to put on my github.  
+  
+Also added some extras like e-mail notifications since I run this script overnight/ overweekend on aws. To use e-mail notifications you need a [less secure apps option enabled](https://myaccount.google.com/lesssecureapps) gmail account.  
+  
+Requires a developer API key and secret from facebook, edit in `config.json` with your own credentials. If you want to use the e-mail notification, edit in your gmail account and password in the same config file. 
 
 I've decided to leave the original comments as is, but added some extra information.
   
@@ -25,7 +29,7 @@ python run.py -f group_names.txt -t group
 
 see `python run.py --help` for more information on arguments:
 
-```bash
+```
 python run.py --help
 usage: run.py [-h] [-t {page,group}] [-i ID] [-f FILE] [-s STARTDATE]
               [-e ENDDATE] [-l LIMIT] [-o OUTPATH]
@@ -53,4 +57,7 @@ optional arguments:
   -o OUTPATH, --outPath OUTPATH
                         Output directory to save the resulting csv. Default is
                         out/pages or out/groups.
+  -n NOTIFICATIONTARGET, --notificationTarget NOTIFICATIONTARGET
+                        Target e-mail address to notify when script finished
+                        running.
   ```
