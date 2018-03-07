@@ -75,6 +75,9 @@ if __name__ == '__main__':
 
     if args.notificationTarget:
         body = f'Your script with the following arguments has succesfuly finished execution at {datetime.datetime.now().strftime("%H:%M:%S - %d/%m/%Y")}'
-        body += f'\n\n{json.dumps(vars(args), indent=4)}'
+        report = vars(args)
+        report['startDate'] = start_date
+        report['endDate'] = end_date
+        body += f'\n\n{json.dumps(report, indent=4)}'
         send_email(config['mail_acc'], config['mail_pass'],
                    args.notificationTarget, body)
